@@ -11,6 +11,7 @@
 		93CC7613257AA62C009AD18F /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = 93CC7612257AA62C009AD18F /* CSV */; };
 		93CC7616257AA667009AD18F /* StringsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC7615257AA667009AD18F /* StringsHelper.swift */; };
 		93CC761A257AAAF2009AD18F /* ConsoleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC7619257AAAF2009AD18F /* ConsoleHelper.swift */; };
+		F8F8FDEE285394B40078F9B9 /* CSVConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8FDED285394B40078F9B9 /* CSVConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		93CC7609257AA5FE009AD18F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		93CC7615257AA667009AD18F /* StringsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsHelper.swift; sourceTree = "<group>"; };
 		93CC7619257AAAF2009AD18F /* ConsoleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleHelper.swift; sourceTree = "<group>"; };
+		F8F8FDED285394B40078F9B9 /* CSVConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				93CC7609257AA5FE009AD18F /* main.swift */,
 				93CC7615257AA667009AD18F /* StringsHelper.swift */,
 				93CC7619257AAAF2009AD18F /* ConsoleHelper.swift */,
+				F8F8FDED285394B40078F9B9 /* CSVConverter.swift */,
 			);
 			path = StringsGenerator;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93CC7616257AA667009AD18F /* StringsHelper.swift in Sources */,
+				F8F8FDEE285394B40078F9B9 /* CSVConverter.swift in Sources */,
 				93CC761A257AAAF2009AD18F /* ConsoleHelper.swift in Sources */,
 				93CC760A257AA5FE009AD18F /* main.swift in Sources */,
 			);
